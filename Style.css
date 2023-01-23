@@ -60,7 +60,7 @@ body {
     align-items: center;
     text-align: center;
     color: #344563;
-	transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
   }
 }
 
@@ -647,5 +647,27 @@ form {
   .form-button {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #menu a:hover {
+    transform: translateY(-5px);
+  }
+
+  .form-input {
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  .form-input:hover {
+    transform: translate(10px);
+  }
+
+  .form-textarea {
+    transition: all;
+    transition-duration: 1s;
+  }
+
+  .form-textarea:hover {
+    transform: translate(10px);
   }
 }

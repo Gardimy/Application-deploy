@@ -1,4 +1,4 @@
-# Finish Mobile Version by adding animation
+# Porfolio: Application Deploy 
 A Microverse exercise to complete the Desktop version.
 <a name="readme-top"></a>
 
@@ -86,11 +86,11 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-`git clone https://github.com/Gardimy/finish_mobile_version.git`
+`git clone  https://gardimy.github.io/Application-deploy/`
 
 or
 
-`git clone https://github.com/Gardimy/finish_mobile_version.git` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
+`git clone  https://gardimy.github.io/Application-deploy/` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
 
 ### Install:
 
