@@ -22,7 +22,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  color: #6070ff;
+  color: rgb(61, 81, 255);
   line-height: 20px;
   text-decoration: none;
 }
@@ -105,7 +105,7 @@ header {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
-  color: #7f8cff;
+  color: rgb(61, 81, 255);
   margin: 0;
 }
 
@@ -225,7 +225,7 @@ header {
   text-align: center;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: rgb(61, 81, 255);
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -426,7 +426,7 @@ form {
 
 .form-button {
   background: #fff;
-  border: 1px solid #7f8cff;
+  border: 1px solid rgb(61, 81, 255);
   border-radius: 8px;
   font-style: normal;
   font-weight: 500;
@@ -434,7 +434,7 @@ form {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: rgb(61, 81, 255);
   padding: 12px;
 }
 
