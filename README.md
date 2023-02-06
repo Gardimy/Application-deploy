@@ -6,8 +6,6 @@ A Microverse exercise to implement the hamberger of the mobile version
   <h3><b>Microverse README Template</b></h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -26,8 +24,6 @@ A Microverse exercise to implement the hamberger of the mobile version
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 Mobile-menu <a name="about-project"></a>
 
