@@ -55,7 +55,9 @@ body {
 
 .closeIcon {
   display: none !important;
-  color: #fff;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
 }
 
 .menuIcon {
@@ -92,6 +94,7 @@ body {
   font-weight: 600;
   color: white;
   text-decoration: none;
+  padding: 3px;
 }
 
 .nav-links {
