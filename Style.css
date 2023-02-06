@@ -157,8 +157,6 @@ header {
   display: none;
 }
 
-
-
 .work-section {
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -166,7 +164,7 @@ header {
   padding: 114px 24px;
 }
 
-.sectionlabel,
+.section-label,
 .desk-content {
   display: flex;
   flex-direction: column;
@@ -185,6 +183,11 @@ header {
 
 .desk-img {
   display: none;
+  width: 50%;
+}
+
+.popup-img {
+  width: 100%;
 }
 
 .label-inside {
@@ -637,6 +640,7 @@ form {
 
   .desk-img {
     display: block;
+	width: 100%;
   }
 
   .portfolios {
