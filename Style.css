@@ -156,7 +156,9 @@ header {
 .hide {
   display: none;
 }
-  
+
+
+
 .work-section {
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -692,6 +694,7 @@ form {
     color: #344563;
     padding: 0;
   }
+  
   .popUp {
     max-height: 100%;
     overflow-y: auto;

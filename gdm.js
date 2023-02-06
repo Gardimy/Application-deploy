@@ -146,7 +146,7 @@ seeProject.forEach((item) => {
           
           <div class="label-inside">
             <div class="popTitle">
-			<h2 class="section-title">${card[0].title}</h2>
+			        <h2 class="section-title">${card[0].title}</h2>
               <img class="crossblack" src="./images/crossblack.png" alt="crossblack" onclick="popUp.classList.toggle('hide')">
             </div>
             <div class="section-options">
