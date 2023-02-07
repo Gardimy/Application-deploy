@@ -55,9 +55,8 @@ body {
 
 .closeIcon {
   display: none !important;
+  color: #fff;
   font-size: 1.5rem;
-  color: white;
-  text-decoration: none;
 }
 
 .menuIcon {
@@ -94,7 +93,6 @@ body {
   font-weight: 600;
   color: white;
   text-decoration: none;
-  padding: 3px;
 }
 
 .nav-links {
@@ -156,6 +154,10 @@ header {
   list-style: none;
 }
 
+.hide {
+  display: none;
+}
+
 .work-section {
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -163,7 +165,8 @@ header {
   padding: 114px 24px;
 }
 
-.section-label {
+.section-label,
+.desk-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -181,6 +184,11 @@ header {
 
 .desk-img {
   display: none;
+  width: 50%;
+}
+
+.popup-img {
+  width: 100%;
 }
 
 .label-inside {
@@ -288,11 +296,77 @@ header {
 .btn-text:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: translate(10px, 6px);
 }
 
 .btn-text:active {
   background-color: #2230d2;
   color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+
+.popUp {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.popUp-content {
+  background-color: #fff;
+  width: 90%;
+  margin: 16px auto 0 auto;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.imgButton {
+  padding-left: 10px;
+}
+
+.deskColum {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cardParaMob {
+  display: block;
+}
+
+.cardParaDesk {
+  display: none;
+}
+
+.borderPop {
+  border-bottom: 1px solid #ebecf0;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.buttonPop {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.popTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.crossblack {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 
 .about-section {
@@ -567,6 +641,7 @@ form {
 
   .desk-img {
     display: block;
+    width: 100%;
   }
 
   .portfolios {
@@ -623,6 +698,37 @@ form {
     line-height: 24px;
     color: #344563;
     padding: 0;
+  }
+
+  .popUp {
+    max-height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+
+  .popUp-content {
+    width: 80%;
+    margin: 50px auto 50px auto;
+  }
+
+  .deskColum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cardParaMob {
+    display: none;
+  }
+
+  .cardParaDesk {
+    display: block;
+  }
+
+  .sectionFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .about-section {
@@ -686,7 +792,7 @@ form {
     margin-right: auto;
   }
 
-  #menu a:hover {
+  .nav-links a:hover {
     transform: translateY(-5px);
   }
 
