@@ -1,13 +1,10 @@
-# Porfolio: details popup window
-A Microverse exercise to manipulate
- the page by sing javascript
+# Porfolio: Mobile-menu
+A Microverse exercise to implement the hamberger of the mobile version
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>details popup window</b></h3>
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -28,12 +25,11 @@ A Microverse exercise to manipulate
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 details popup window <a name="about-project"></a>
 
-# 📖 Details popup window <a name="about-project"></a>
+# 📖 Mobile-menu <a name="about-project"></a>
 
-> **details popup window**  is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices.This project aims to build a simple, one-page responsive portfolio website to showcase prior personal projects. The project requires you to configure an HTML-CSS linter according to provided guidelines, design the website to prioritize mobile devices, and implement 
-
+> **Mobile-menu** is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install`  also with properly configured linters and correct initial file structrure. And also using the javascript to implement the hamberger of the mobile version.
 ## 🛠 Built With <a name="built-with"></a>
 - HTML & CSS & JavaScript
 - Git, Github and Visual Studio Code

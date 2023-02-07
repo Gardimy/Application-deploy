@@ -56,6 +56,7 @@ body {
 .closeIcon {
   display: none !important;
   color: #fff;
+  font-size: 1.5rem;
 }
 
 .menuIcon {
@@ -153,10 +154,6 @@ header {
   list-style: none;
 }
 
-.hide {
-  display: none;
-}
-  
 .work-section {
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -164,8 +161,7 @@ header {
   padding: 114px 24px;
 }
 
-.sectionlabel,
-.desk-content {
+.section-label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -183,6 +179,11 @@ header {
 
 .desk-img {
   display: none;
+  width: 50%;
+}
+
+.popup-img {
+  width: 100%;
 }
 
 .label-inside {
@@ -635,6 +636,7 @@ form {
 
   .desk-img {
     display: block;
+    width: 100%;
   }
 
   .portfolios {
@@ -691,36 +693,6 @@ form {
     line-height: 24px;
     color: #344563;
     padding: 0;
-  }
-  .popUp {
-    max-height: 100%;
-    overflow-y: auto;
-    z-index: 1000;
-  }
-
-  .popUp-content {
-    width: 80%;
-    margin: 50px auto 50px auto;
-  }
-
-  .deskColum {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .cardParaMob {
-    display: none;
-  }
-
-  .cardParaDesk {
-    display: block;
-  }
-
-  .sectionFlex {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
   }
 
   .about-section {
