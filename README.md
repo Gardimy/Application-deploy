@@ -1,12 +1,10 @@
-# Porfolio: Application Deploy 
-A Microverse exercise to complete the Desktop version.
+# Porfolio: Mobile-menu
+A Microverse exercise to implement the hamberger of the mobile version
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Mobile-menu</b></h3>
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -27,11 +25,9 @@ A Microverse exercise to complete the Desktop version.
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Mobile-menu <a name="about-project"></a>
 
-# 📖 Desktop version <a name="about-project"></a>
-
-> **Desktop version** is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install`  also with properly configured linters and correct initial file structrure.
+> **Mobile-menu** is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install`  also with properly configured linters and correct initial file structrure. And also using the javascript to implement the hamberger of the mobile version.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>

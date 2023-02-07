@@ -11,17 +11,24 @@
   
   <header>
     <nav>
-      <div class="menu-bar">
-        <a href="#" class="logo">Gardimy Charles</a>
-        <a href="#" class="hambug-menu"><img src="Images/menu.svg" alt="Options Menu"></a>
-       
-		<ul id="menu">
-			  <li><a href="#works-container">Portfolio</a></li>
-			  <li><a href="#about-container">About</a></li>
-			  <li><a href="#contact-form-container">Contact</a></li>
+		<div class="nav-bar">
+			<a href="#" class="logo">Gardimy Charles</a>
+			<button class="hambug-menu">
+			<i class="menuIcon material-icons"> <img class="menuIcone" src="./Images/Union.png" alt="Union Image"></i>
+			<i class="closeIcon material-icons">X</i>
+			</button>
+			<ul class="mobile-menu">
+			  <li><a class="menuItem" href="#Portfolio">Portfolio</a></li>
+			  <li><a class="menuItem" href="#About">About</a></li>
+			  <li><a class="menuItem" href="#contact">Contacts</a></li>
 			</ul>
-        
-      </div>
+	
+			<ul class="nav-links">
+			  <li class="links">Portfolio</li>
+			  <li class="links">About</li>
+			  <li class="links">Contact</li>
+			</ul>
+		  </div>
     </nav>
 
     <section class="head-section">
@@ -51,7 +58,7 @@
   </header>
 
   <section class="work-section">
-    <section class="section-label">
+    <section class="section-label" id="Portfolio">
        <img class="portfolios" src="Images/Snapshoot1.png" alt="Work Example - Mobile">
        <img class="desk-img" src="Images/Desktop1.png" alt="Desktop Image">
        <div class="label-inside">
@@ -161,7 +168,7 @@
   </section>
 
   <section class="about-section">
-    <section class="about">
+    <section class="about" id="About">
 
       <h2 class="title">About <br> Myself</h2>
 
@@ -217,7 +224,7 @@
   </section>
 
   <section class="formx">
-    <div class="contact-form">
+    <div class="contact-form" id="contact">
       <h2 class="contact-title">Contact me</h2>
       <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
       <div class="form">
@@ -230,5 +237,6 @@
       </div>
     </div>
   </section>
+  <script src="index.js"></script>
 </body>
 </html>
