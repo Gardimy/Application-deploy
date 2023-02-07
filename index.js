@@ -5,7 +5,7 @@ const closeIcon = document.querySelector('.closeIcon');
 const menuIcon = document.querySelector('.menuIcon');
 
 function toggleMenu() {
-	if (menu.classList.contains('showMenu')) {
+	 if (menu.classList.contains('showMenu')) {
 		menu.classList.remove('showMenu');
 		closeIcon.style.display = 'none';
 		menuIcon.style.display = 'block';
@@ -100,7 +100,7 @@ const sectionLabel = document.getElementById('work');
 
 workCards.forEach((item2) => {
 	sectionLabel.innerHTML += `
-	<div class="${item2.class}">
+  <div class="${item2.class}">
 		<img class="portfolios" src="${item2.imageMob}" alt="card1">
 		<img class="desk-img" src="${item2.imageDesk}" alt="card1">
 		<div class="label-inside">
@@ -146,7 +146,7 @@ seeProject.forEach((item) => {
 					
 					<div class="label-inside">
 						<div class="popTitle">
-				            <h2 class="section-title">${card[0].title}</h2>
+							<h2 class="section-title">${card[0].title}</h2>
 							<img class="crossblack" src="./images/crossblack.png" alt="crossblack" onclick="popUp.classList.toggle('hide')">
 						</div>
 						<div class="section-options">
@@ -183,6 +183,6 @@ seeProject.forEach((item) => {
 				</div>
 			</div>
 		`;
-		popUp.classList.toggle('hide');
-	});
+            popUp.classList.toggle('hide');
+  });
 });
