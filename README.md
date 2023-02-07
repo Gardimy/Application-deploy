@@ -32,8 +32,11 @@ A Microverse exercise to manipulate
 
 # 📖 Details popup window <a name="about-project"></a>
 
-> **details popup window** is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install`  also with properly configured linters and correct initial file structrure. And also using the javascript to implement the hamberger of the mobile version.
+> **details popup window**  is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices.This project aims to build a simple, one-page responsive portfolio website to showcase prior personal projects. The project requires you to configure an HTML-CSS linter according to provided guidelines, design the website to prioritize mobile devices, and implement 
+
 ## 🛠 Built With <a name="built-with"></a>
+- HTML & CSS & JavaScript
+- Git, Github and Visual Studio Code
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -116,6 +119,12 @@ To run the linters before committing any changes to your code, execute the follo
 - GitHub: [@Gardimy](https://github.com/Gardimy)
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
+
+ ## 👥 Authors  <a name="authors"></a>
+
+- GitHub:[@githubtheresetuyi] https://github.com/theresetuyi
+- Twitter:[@THERESETUYISAB2]https://twitter.com/THERESETUYISAB2
+- LinkedIn:[@THERESETUYISABE]https://www.linkedin.com/in/therese-theddy-tuyisabe
 
 <!-- FUTURE FEATURES -->
 
