@@ -1,13 +1,9 @@
 # Porfolio: details popup window
-A Microverse exercise to manipulate
- the page by sing javascript
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>details popup window</b></h3>
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -28,7 +24,6 @@ A Microverse exercise to manipulate
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 Details popup window <a name="about-project"></a>
 
