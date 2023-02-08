@@ -177,10 +177,11 @@ header {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  margin-left: 30px;
 }
 
 .portfolios {
-  width: 295px;
+  width: 320px;
   height: 220px;
 }
 
@@ -315,10 +316,12 @@ header {
 
 .popUp-content {
   background-color: #fff;
-  width: 90%;
-  margin: 16px auto 0 auto;
+  width: 75%;
+  margin: 16px 0 0 10px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .imgButton {
@@ -634,6 +637,7 @@ form {
     padding: 24px;
   }
 
+
   .desk-img {
     display: block;
     width: 50%;
@@ -658,37 +662,6 @@ form {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
-  }
-
-  .popUp {
-    max-height: 100%;
-    overflow-y: auto;
-    z-index: 1000;
-  }
-
-  .popUp-content {
-    width: 80%;
-    margin: 50px auto 50px auto;
-  }
-
-  .deskColum {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .cardParaMob {
-    display: none;
-  }
-
-  .cardParaDesk {
-    display: block;
-  }
-
-  .sectionFlex {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
   }
 
   .desk-none {
@@ -724,10 +697,42 @@ form {
   .section-text {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     color: #344563;
     padding: 0;
+    width: 65%;
+  }
+
+  .popUp {
+    max-height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+
+  .popUp-content {
+    width: 80%;
+    margin: 50px auto 50px auto;
+  }
+
+  .deskColum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cardParaMob {
+    display: none;
+  }
+
+  .cardParaDesk {
+    display: block;
+  }
+
+  .sectionFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .about-section {

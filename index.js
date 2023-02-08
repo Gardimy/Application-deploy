@@ -174,8 +174,8 @@ seeProject.forEach((item) => {
                 </ul>
                 <div class="borderPop"></div>
                 <div class="buttonPop">
-                  <a href="${card[0].live}" class="btn-text" name="1">See live <img class="imgButton" src="Images/live.png" alt="live" width="24"></a>
-                  <a href="${card[0].source}" class="btn-text" name="1">See Source <img class="imgButton" src="Images/IconGitHub.png" alt="IconGitHub" width="24"></a>
+                  <a href="${card[0].live}" class="btn-text" name="1">See live <img class="imgButton" src="Images/live.png" alt="live" width="30"></a>
+                  <a href="${card[0].source}" class="btn-text" name="1">See Source <img class="imgButton" src="Images/IconGitHub.png" alt="IconGitHub" width="30"></a>
                 </div>
               </div>
             </div>
