@@ -163,7 +163,12 @@ header {
   padding: 114px 24px;
 }
 
-.section-label {
+.hide {
+  display: none;
+}
+
+.section-label,
+.desk-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -172,10 +177,12 @@ header {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  margin-left: 30px;
+  margin-right: 60px;
 }
 
 .portfolios {
-  width: 295px;
+  width: 320px;
   height: 220px;
 }
 
@@ -293,6 +300,73 @@ header {
 .btn-text:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+.popUp {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.popUp-content {
+  background-color: #fff;
+  width: 75%;
+  margin: 16px 0 0 10px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-left: 60px;
+}
+
+.imgButton {
+  padding-left: 10px;
+}
+
+.deskColum {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cardParaMob {
+  display: block;
+}
+
+.cardParaDesk {
+  display: none;
+}
+
+.borderPop {
+  border-bottom: 1px solid #ebecf0;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.buttonPop {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.popTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.crossblack {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 
 .about-section {
@@ -567,6 +641,11 @@ form {
 
   .desk-img {
     display: block;
+    width: 50%;
+  }
+
+  .popup-img {
+    width: 100%;
   }
 
   .portfolios {
@@ -619,10 +698,42 @@ form {
   .section-text {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     color: #344563;
     padding: 0;
+    width: 65%;
+  }
+
+  .popUp {
+    max-height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+
+  .popUp-content {
+    width: 80%;
+    margin: 50px auto 50px auto;
+  }
+
+  .deskColum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cardParaMob {
+    display: none;
+  }
+
+  .cardParaDesk {
+    display: block;
+  }
+
+  .sectionFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .about-section {
