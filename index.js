@@ -33,7 +33,6 @@ navLinks.forEach((link) => {
   });
 });
 
-
 const workCards = [
   {
     id: 1,

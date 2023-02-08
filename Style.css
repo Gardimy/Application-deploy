@@ -300,7 +300,6 @@ header {
   color: #fff;
 }
 
-
 .popUp {
   width: 100%;
   height: 100%;
@@ -637,7 +636,7 @@ form {
 
   .desk-img {
     display: block;
-	width: 50%;
+    width: 50%;
   }
 
   .popup-img {
@@ -660,7 +659,7 @@ form {
     line-height: 52px;
     color: #091e42;
   }
-  
+
   .popUp {
     max-height: 100%;
     overflow-y: auto;
@@ -691,7 +690,7 @@ form {
     flex-direction: column;
     gap: 12px;
   }
-  
+
   .desk-none {
     display: none;
   }
