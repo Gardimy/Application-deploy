@@ -63,7 +63,7 @@ A Microverse exercise to implement a popup window that includes the project deta
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://Setupandmobilefirst.netlify.app/)
+- [Live Demo Link](https://gardimy.github.io/Application-deploy/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,6 +148,6 @@ And I also want to thank all my brothers for their advice.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT license](https://choosealicense.com/licenses/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
