@@ -1,9 +1,9 @@
-# Porfolio: Validate Contact Form
+# Porfolio: local-storage
 A Microverse exercise to implement a popup window that includes the project details in both desktop and mobile.
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Validate Contact Form </b></h3>
+  <h3><b>local-storage </b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -25,9 +25,9 @@ A Microverse exercise to implement a popup window that includes the project deta
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 validate contact form <a name="about-project"></a>
+# 📖 local-storage <a name="about-project"></a>
 
-> **validate-contact-form** is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install`  also with properly configured linters and correct initial file structrure. And also using the javascript to implement the hamberger of the mobile version.
+> **local-storage** is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install`  also with properly configured linters and correct initial file structrure. And also using the javascript to implement the hamberger of the mobile version.
 ## 🛠 Built With <a name="built-with"></a>
 -html 
 -css
