@@ -188,7 +188,7 @@ seeProject.forEach((item) => {
 });
 
 const form = document.querySelector('form');
-const email = document.getElementById('email');
+const email = document.getElementById('form-email');
 const error = email.nextElementSibling;
 const emailRegExp = /^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]+(?:\.[a-z-0-9-]+)*$/;
 form.addEventListener('submit', (event) => {
@@ -206,3 +206,42 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+const formData = {
+  name: '',
+  email: '',
+  textArea: '',
+};
+
+function fillDatas() {
+  let storageData = localStorage.getItem('form-data');
+  storageData = JSON.parse(storageData);
+  document.getElementById('form-name').value = storageData.name;
+  document.getElementById('form-email').value = storageData.email;
+  document.getElementById('text-area').value = storageData.textArea;
+}
+
+function populateDatas() {
+  formData.name = document.getElementById('form-name').value;
+  formData.email = document.getElementById('form-email').value;
+  formData.textArea = document.getElementById('text-area').value;
+  localStorage.setItem('form-data', JSON.stringify(formData));
+  fillDatas();
+}
+
+const inputList = [];
+inputList.push(document.getElementById('form-name'));
+inputList.push(document.getElementById('form-email'));
+inputList.push(document.getElementById('text-area'));
+
+inputList.forEach((value) => {
+  value.onchange = function trig() {
+    populateDatas();
+  };
+});
+
+if (!localStorage.getItem('form-data')) {
+  populateDatas();
+} else {
+  fillDatas();
+}
