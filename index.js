@@ -187,20 +187,22 @@ seeProject.forEach((item) => {
   });
 });
 
-const contactBtn = document.getElementById('contactBtn');
 const form = document.querySelector('form');
-const warning = document.querySelector('.warning');
+const email = document.getElementById('email');
+const error = email.nextElementSibling;
+const emailRegExp = /^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]+(?:\.[a-z-0-9-]+)*$/;
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
 
-contactBtn.addEventListener('click', (e) => {
-  const { email } = form.elements;
-
-  if (email.value !== email.value.toLowerCase()) {
-    warning.style.padding = '10px';
-    warning.innerHTML = `
-      Please type the email in lowercase!
-    `;
-    e.preventDefault();
+  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+  if (!isValid) {
+    email.className = 'invalid';
+    error.textContent = 'Only lower case letters allowed';
+    error.className = 'error active';
   } else {
-    warning.innerHTML = '';
+    email.className = 'valid';
+    error.textContent = '';
+    error.className = 'error';
+    form.submit();
   }
 });

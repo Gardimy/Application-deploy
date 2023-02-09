@@ -532,6 +532,22 @@ form {
   padding: 2%;
   width: 100%;
 }
+.error {
+  width: 90%;
+  padding: 0;
+  top: -20px;
+  left: 30px;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.error.active {
+  padding: 0.3em;
+}
 
 .form-button {
   background: #fff;
