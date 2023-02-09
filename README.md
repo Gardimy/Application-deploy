@@ -3,7 +3,7 @@ A Microverse exercise to implement a popup window that includes the project deta
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>details popup window</b></h3>
+  <h3><b>Validate Contact Form </b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -63,7 +63,7 @@ A Microverse exercise to implement a popup window that includes the project deta
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://Setupandmobilefirst.netlify.app/)
+- [Live Demo Link](https://gardimy.github.io/Application-deploy/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,9 +115,9 @@ To run the linters before committing any changes to your code, execute the follo
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
 > 👤 **Therese Tuyisabe**
-- GitHub: [@githubhandle](https://github.com/theresetuyi)
-- Twitter: [@twitterhandle](https://twitter.com/THERESETUYISAB2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/therese-theddy-tuyisabe-249820203/)
+- GitHub: [@theresetuyi](https://github.com/theresetuyi)
+- Twitter: [@THERESETUYISAB2](https://twitter.com/THERESETUYISAB2)
+- LinkedIn: [therese-theddy-tuyisabe](https://www.linkedin.com/in/therese-theddy-tuyisabe-249820203/)
 
 > 👤 **Mathias Wismann**
 - GitHub: [@mwismann](https://github.com/mwismann)
@@ -135,7 +135,7 @@ To run the linters before committing any changes to your code, execute the follo
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Gardimy/Application-deploy/issues/2).
 
 <!-- SUPPORT -->
 
@@ -152,6 +152,6 @@ And I also want to thank all my brothers for their advice.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
