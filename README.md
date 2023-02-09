@@ -1,9 +1,9 @@
-# Porfolio: details popup window
+# Porfolio: Validate Contact Form
 A Microverse exercise to implement a popup window that includes the project details in both desktop and mobile.
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>details popup window</b></h3>
+  <h3><b>Validate Contact Form </b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -25,9 +25,9 @@ A Microverse exercise to implement a popup window that includes the project deta
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 details popup window <a name="about-project"></a>
+# 📖 validate contact form <a name="about-project"></a>
 
-> **details popup window** is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install`  also with properly configured linters and correct initial file structrure. And also using the javascript to implement the hamberger of the mobile version.
+> **validate-contact-form** is a starter exercise to create a porfolio capable to work in ever device, based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install`  also with properly configured linters and correct initial file structrure. And also using the javascript to implement the hamberger of the mobile version.
 ## 🛠 Built With <a name="built-with"></a>
 -html 
 -css
@@ -115,10 +115,14 @@ To run the linters before committing any changes to your code, execute the follo
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
 > 👤 **Therese Tuyisabe**
-- GitHub: [@githubhandle](https://github.com/theresetuyi)
-- Twitter: [@twitterhandle](https://twitter.com/THERESETUYISAB2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/therese-theddy-tuyisabe-249820203/)
+- GitHub: [@theresetuyi](https://github.com/theresetuyi)
+- Twitter: [@THERESETUYISAB2](https://twitter.com/THERESETUYISAB2)
+- LinkedIn: [therese-theddy-tuyisabe](https://www.linkedin.com/in/therese-theddy-tuyisabe-249820203/)
 
+> 👤 **Mathias Wismann**
+- GitHub: [@mwismann](https://github.com/mwismann)
+- Twitter: [@mathias_wismann](https://twitter.com/mathias_wismann)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/math%C3%ADas-wismann-bertolucci-8812a4194/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -131,7 +135,7 @@ To run the linters before committing any changes to your code, execute the follo
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Gardimy/Application-deploy/issues/2).
 
 <!-- SUPPORT -->
 

@@ -120,7 +120,8 @@
       <div class="form">
         <form action="https://formspree.io/f/xbjbnvvz" method="POST">
           <input class="form-input" type="text" placeholder="Enter your name" maxlength="30" required>
-          <input class="form-input" type="email" placeholder="Enter your Email" required>
+          <input class="form-input" id="email" type="email" placeholder="Enter your Email" required>
+          <span class="error" aria-live="polite" gap="30px"></span>
           <textarea class="form-textarea" name="area" cols="30" rows="6"  maxlength="500" placeholder="Write your message here" required></textarea>
           <button class="form-button" type="submit">Get in touch</button>
         </form>
