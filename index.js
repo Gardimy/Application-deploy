@@ -188,7 +188,7 @@ seeProject.forEach((item) => {
 });
 
 const form = document.querySelector('form');
-const email = document.getElementById('email');
+const email = document.getElementById('form-email');
 const error = email.nextElementSibling;
 const emailRegExp = /^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]+(?:\.[a-z-0-9-]+)*$/;
 form.addEventListener('submit', (event) => {
@@ -220,7 +220,7 @@ function fillDatas() {
   document.getElementById('form-email').value = storageData.email;
   document.getElementById('text-area').value = storageData.textArea;
 }
-console.log(fillDatas);
+
 function populateDatas() {
   formData.name = document.getElementById('form-name').value;
   formData.email = document.getElementById('form-email').value;
